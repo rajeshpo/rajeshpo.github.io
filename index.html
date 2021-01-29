@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fuck">
+        <div class="form-group"> 
+        <center class="center"> 
+            <h1 class="titlee">Superheros</h1>
+        <form id="form"> 
+        <input id="input1" required placeholder="Name">
+        <input id="input2" required placeholder="Age">
+        <input id="input3" required placeholder="Planet">
+        <input id="input4" required placeholder="height">
+
+        <button type="submit" id="button1" onclick="addSuperHero(event)">Add Superhero</button>
+        <input id="input5" required placeholder="Search" onkeyup="searchElement()">
+   
+    <table class="tab">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Planet</td>
+                <td>Height</td>   
+                <td>Actions</td>    
+            </tr>
+        </thead>
+        <tbody class="tableBody">
+            
+        </tbody>
+    </table>
+</center>
+</form>
+ 
+ 
+<div class="form1">
+    <h1>Update Superhero</h1>
+    <form class=form2> 
+        <input id="unput1" required placeholder="Name">
+        <input id="unput2" required placeholder="Age">
+        <input id="unput3" required placeholder="Planet">
+        <input id="unput4" required placeholder="height">
+
+        <button type="submit" id="button1" onclick="updateSuperHero(event)">update Superhero</button>
+    </form>
+</div>
+            
+    </div>
+</div>
+    <script src="own.js"></script>
+</body>
+</html>
